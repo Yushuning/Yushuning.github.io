@@ -1,0 +1,14 @@
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#div1").fadeIn();
+    $("#div2").fadeIn("slow");
+    $("#div3").fadeIn(3000);
+  });
+});
+</script>
+
+
+<div id="div1" style="width:330;height:330"><img src=""https://scontent.ftpe3-1.fna.fbcdn.net/v/t1.6435-9/244722160_623087822055162_3195773485672709547_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=730e14&_nc_ohc=t2iMztFwn9IAX__4KIy&_nc_ht=scontent.ftpe3-1.fna&oh=2f2ccbe395bfbee789292cda7287e42f&oe=6198861E""></div>
+
+
