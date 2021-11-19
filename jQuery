@@ -16,5 +16,16 @@ $("button").click(function(){
   $("#div1").fadeOut();
   $("#div2").fadeOut("slow");
   $("#div3").fadeOut(3000);
+  
+  
+  // Back to top 
+
+$('a.top').click(function (e) { 
+     e.preventDefault();
+    $(document.body).animate({scrollTop: 0}, 800);
+ });
+
+<!-- Create an anchor tag -->
+ <a class="top" href="#">Back to top</a>
 });
 
